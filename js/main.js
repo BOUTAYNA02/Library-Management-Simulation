@@ -50,7 +50,7 @@ function Library() {
         viewtheBooks();
         returnBook(0);
         viewtheBooks();
-    }, 1000); // Delay to ensure books are fetched before interacting with them
+    }, 1000); 
 }
 
 Library();
