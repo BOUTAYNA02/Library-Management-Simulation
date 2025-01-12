@@ -8,7 +8,7 @@ fetch("https://jsonplaceholder.typicode.com/posts")
 
         for (let i = 0; i < data.length; i++) {
             books[books.length] = { title: data[i].title };
-            bookstoborrow[bookstoborrow.length] = false; // Book is available initially
+            bookstoborrow[bookstoborrow.length] = false; 
         }
 
         let available_Books = [];
